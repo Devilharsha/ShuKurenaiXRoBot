@@ -238,7 +238,7 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_photo(
-             GROUP_IMG, caption= "*Hey {},*\n*Shu Kurenai here*\n*Power lavel time* : {} ".format(
+             GROUP_IMG, caption= "*Hey {},*\n*Shiva  here*\n*Power lavel time* : {} ".format(
              first_name,uptime
             ),
             parse_mode=ParseMode.MARKDOWN,
